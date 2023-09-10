@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Stopwatch</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body id="stopwatch">
+    <div id="body" class="body">
+    </div>
+    <div id="belt" class="belt">
+            <span class="buckle"></span>
+            <span class="buckleMiddle"></span>
+            <span class="bHole bHole1"></span>
+            <span class="bHole bHole2"></span>
+            <span class="bHole bHole3"></span>
+            <span class="bHole bHole4"></span>
+            <span class="bHole bHole5"></span>
+    </div>
+    <div id="timer" class="timer">
+        <span id="display">00:00:00</span>
+    </div>
+    <button class="button bStartStop" onclick="timerCmd()"></button>
+    <button class="button bReset" onclick="resetTimer()"></button>
+    <script src='timer.js'></script>
+</body>
+</html>

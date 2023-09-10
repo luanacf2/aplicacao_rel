@@ -1,0 +1,165 @@
+#stopwatch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    background: rgb(90, 190, 174);
+    background-color: radial-gradient(circle, rgb(64, 121, 111) 23%, rgb(101, 167, 184) 86%) !important; 
+}
+
+.body{
+    background-color: rgb(52, 52, 52);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 200px;
+    position: absolute;
+    z-index: 1;    
+    border: solid 2px rgb(6, 95, 179); 
+}
+
+.body, .belt{
+    -webkit-box-shadow: 1px 3px 9px 0px #000000; 
+    box-shadow: 1px 3px 9px 0px #000000;
+}
+
+.belt{
+    background-color: rgb(90, 89, 89);
+    width: 175px;
+    height: 700px;
+    left: 63px;
+    position: relative;
+    border: 1px solid #000000;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-radius: 10px 10px 30px 30px;
+}
+
+.timer{
+    z-index: 2;
+    background-color: rgba(87, 88, 88, 0.733);
+    width: 185px;
+    height: 75px;
+    left: 60px;
+    top: 270px;
+    position: absolute;
+    border-radius: 5%;
+    border-style: solid;
+    outline: 2px solid #000000;
+    outline-offset: 2px;
+
+}
+
+.timer span{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 20px #94e2fc, 0 0 20px rgb(75, 106, 248);
+}
+
+.commands{
+}
+
+.buckle {
+    width: 173px;
+    height: 90px;
+    left: 50%;
+    top: -6%;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border: 10px solid #929292;
+    outline: 1px solid #000000;
+    box-shadow: inset 0 0 0 1px #000000, 0 0 0 1px #929292, 0 0 0 1px #000000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.buckleMiddle {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c;
+    box-shadow: inset 0px 0px 20px 3px #929292;
+    width: 195px;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 20%;
+    z-index: 1;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg) translate(-50%, -50%);
+    left: 19%;
+    top: 0%;
+    width: 97px;
+    height: 10px;
+    z-index: 1;
+}
+
+.belt .bHole {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c;
+    box-shadow: inset 0px 0px 20px 3px #424242;
+    width: 30px;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%);
+    border: 1px solid #000000;
+    border-radius: 15%;
+}
+
+.bHole1 {
+    top: 530px;
+}
+
+.bHole2 {
+    top: 560px;
+}
+
+.bHole3 {
+    top: 590px;
+}
+
+.bHole4 {
+    top: 620px;
+}
+
+.bHole5 {
+    top: 650px;
+}
+
+.button {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #929292;
+    box-shadow: inset 0px 0px 20px 3px #929292;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(90deg) translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 15%;
+}
+
+.bStartStop{
+    -webkit-box-shadow: inset 0px 0px 50px 4px #a11616;
+    box-shadow: inset 0px 0px 20px 3px #a11616;
+    border: 1px solid #3d0101;
+    transform: rotate(65deg) translate(-50%, -50%);
+    left: 157%;
+    top: 40%;
+}
+
+.bReset{
+    left: 165%;
+    top: 51%;
+}
